@@ -38,7 +38,12 @@ def game_loop():
 
        pygame.display.flip()
        clock.tick(30)
-    pygame.quit
+
+    pygame.quit()
+
+
+if __name__ == '__main__':
+   game_loop()
        
    
         
