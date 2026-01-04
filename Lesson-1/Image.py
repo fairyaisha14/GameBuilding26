@@ -10,7 +10,7 @@ pygame.display.set_caption('Adding image and backround image')
 
 # Load and scale images directly
 background_image = pygame.transform.scale(
-    pygame.image.load('background.png').convert(),
+    pygame.image.load('back.png').convert(),
     (SCREEN_WIDTH, SCREEN_HEIGHT))
 
 penguin_image = pygame.transform.scale(
